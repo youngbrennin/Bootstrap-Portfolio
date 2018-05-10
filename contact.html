@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- LETS MAKE A BOOTSTRAP WEBSITE THEME!!! -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BOOT - Contact</title>
+    <!-- THIS IS THE BOOTSTRAP LINK THAT LETS US STYLE THE PAGE -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+</head>
+
+<body background="pictures/purpleback.jpg">
+
+
+    <!-- THIS IS THE NAV BAR (NEW - ADDED SOME TOOLTIPS)-->
+    <nav class="navbar" style="background-color: rgb(99, 63, 146); border-bottom: solid 2px white;">
+        <span class="navbar-brand mb-0 h1 rounded border border-white" style="color: white; padding: 10px;">Brennin Young</span>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link border-right" data-toggle="tooltip" title="Click to go Home" style="color: white;" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link border-right" data-toggle="tooltip" title="Click to go to Portfolio" style="color: white;" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tooltip" title="Click to go to Contact" style="color: white;" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- THIS IS THE MAIN CONTENT (PIC AND INFO) -->
+    <div class="container" style="border: solid 2px gray; margin-top: 20px; width: 960px;">
+        <div class="row">
+            <div class="col" style="background-color: white;">
+                <!-- THIS LINE IS THE HEADING -->
+                <h2 style="padding: 20px; color: rgb(99, 63, 146); border-bottom: solid 2px gray;">Contact</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                            <label for="exampleInputEmail1">Message</label>
+                            <input type="message" class="form-control" style="height: 300px">
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="margin-bottom: 10px; background-color: rgb(99, 63, 146);">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <!-- HERE IS THE FOOTER -->
+    <div class="container" style="width: 100%; border-top: solid 2px white; border-right: solid 2px white; 
+    border-left: solid 2px white; background-color: rgb(99, 63, 146); margin-top: 20px;">
+        <div class="row">
+            <div class="col-sm text-center" style="color: white; padding: 20px;">
+                Copyright&copy;
+            </div>
+</body>
+
+</html>
