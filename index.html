@@ -10,11 +10,35 @@
     <!-- THIS IS THE BOOTSTRAP LINK THAT LETS US STYLE THE PAGE -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
+    <style>
+        nav {
+            background-color: rgb(99, 63, 146);
+            animation-name: example;
+            animation-duration: 4s;
+        }
+
+        /* Standard syntax */
+
+        @keyframes example {
+            0% {
+                background-color: rgb(99, 63, 146);
+            }
+            25% {
+                background-color: aqua;
+            }
+            50% {
+                background-color: rgb(153, 40, 168);
+            }
+            100% {
+                background-color: rgb(99, 63, 146);
+            }
+        }
+    </style>
 </head>
 
 <body background="pictures/purpleback.jpg">
-    
-    
+
+
     <!-- THIS IS THE NAV BAR (NEW - ADDED SOME TOOLTIPS)-->
     <nav class="navbar" style="background-color: rgb(99, 63, 146); border-bottom: solid 2px white;">
         <span class="navbar-brand mb-0 h1 rounded border border-white" style="color: white; padding: 10px;">Brennin Young</span>
@@ -56,8 +80,8 @@
                     I was teaching myself while I was in class. I loved it immediately because my interests have always been
                     to be creating something somewhere. For a while I thought I was going to be an architect but in the world
                     of making choices, my path has taken me here: a heavy interest in coding and the desire to create. I
-                    am now in the University of Arizona Coding Bootcamp. I do have an active life where I will spend time with 
-                    friends and my soon to be wife.
+                    am now in the University of Arizona Coding Bootcamp. I do have an active life where I will spend time
+                    with friends and my soon to be wife.
                     <br>
                     <br> I enjoy a variety of things whether it might be:
                     <ul style="color: rgb(99, 63, 146); font-weight: bold;">
@@ -67,20 +91,20 @@
                         <li>Going to see the latest movies</li>
                         <li>Occasionally trying out new restaurants</li>
                     </ul>
-                    <p style="padding: 20px; text-align: center">I am very excited to see where the future will take me and I
-                        can't wait <br>to code up a storm... that reminds me I need to get back to it!</p>
+                    <p style="padding: 20px; text-align: center">I am very excited to see where the future will take me and I can't wait
+                        <br>to code up a storm... that reminds me I need to get back to it!</p>
                 </p>
             </div>
         </div>
 
     </div>
-<!-- HERE IS THE FOOTER -->
-<div class="container" style="width: 100%; border-top: solid 2px white; border-right: solid 2px white; 
+    <!-- HERE IS THE FOOTER -->
+    <div class="container" style="width: 100%; border-top: solid 2px white; border-right: solid 2px white; 
 border-left: solid 2px white; background-color: rgb(99, 63, 146); margin-top: 20px;">
         <div class="row">
-          <div class="col-sm text-center" style="color: white; padding: 20px;">
+            <div class="col-sm text-center" style="color: white; padding: 20px;">
                 Copyright&copy;
-          </div>
+            </div>
 </body>
 
 </html>
